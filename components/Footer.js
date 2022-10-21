@@ -84,7 +84,7 @@ const Footer = () => {
 								},
 							].map((item, iter) => {
 								return (
-									<li>
+									<li key={iter}>
 										<a className="text-white hover:text-red-300" href="#">
 											{item.text}
 										</a>
@@ -117,7 +117,7 @@ const Footer = () => {
 								},
 							].map((item, iter) => {
 								return (
-									<li>
+									<li key={iter}>
 										<a className="text-white hover:text-red-300" href="#">
 											{item.text}
 										</a>
@@ -150,7 +150,7 @@ const Footer = () => {
 								},
 							].map((item, iter) => {
 								return (
-									<li>
+									<li key={iter}>
 										<a className="text-white hover:text-red-300" href="#">
 											{item.text}
 										</a>
