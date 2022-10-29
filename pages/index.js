@@ -2,10 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { TbArrowWaveLeftDown } from "react-icons/tb";
+import { BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
 import Marquee from "react-fast-marquee";
 import andcLogo from "../public/image/logos/andc.png";
 import spieLogo from "../public/image/logos/spie.png";
-
+import teamData from "../public/data.json";
 export default function Home() {
 	return (
 		<div className="bg-[#101010]">
@@ -132,10 +133,10 @@ export default function Home() {
 
 			{/* ====== TEAM Section Start ====== */}
 			<section
-				className="team bg-black rounded-[4rem] -translate-y-10 flex-col py-32"
+				className="team bg-black rounded-[4rem] -translate-y-10 flex-col py-32 flex gap-32 justify-center items-center"
 				id="Teams"
 			>
-				<h2 className="text-[8rem]">
+				<h2 className="text-[5rem] md:text-[8rem]">
 					<Marquee gradient={false} speed={200}>
 						MEET THE
 						<div className="text-[#b91c1c] underline decoration-wavy decoration-2 decoration-red-700 underline-offset-8 mx-3">
@@ -144,254 +145,40 @@ export default function Home() {
 						TEAM <div className="text-red-700">.</div>
 					</Marquee>
 				</h2>
-				<div className="row-1">
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Prof. Amit Garg <br />
-									<span>Faculty Advisor</span>
-								</h2>
-								<h2>
-									<span>Associate Professor ANDC</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fab fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-20 justify-center items-center">
+					{teamData["team"].map((item, iter) => {
+						return (
+							<div key={iter}>
+								<div className="card">
+									<div className="imgBx">
+										<img src="#" alt="" />
+									</div>
+									<div className="content">
+										<div className="details">
+											<h2>
+												{item.name} <br />
+												<span>{item.position}</span>
+											</h2>
+											<div className="data grid grid-cols-3">
+												<h3>
+													<BsLinkedin className="h-10 w-10" />
+													Linkedin
+												</h3>
+												<h3>
+													<BsInstagram className="h-10 w-10" />
+													Instagram
+												</h3>
+												<h3>
+													<BsTwitter className="h-10 w-10" />
+													Twitter
+												</h3>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-				<div className="row">
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Ankush Rana <br />
-									<span>President</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fa-brand fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Sakshi Garg <br />
-									<span>Vice President</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fab fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Kalpajit Roy
-									<br />
-									<span>Secretary</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fab fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div className="row">
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Iftekhar Ali <br />
-									<span>Treasurer</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fab fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Naman Sirohi
-									<br />
-									<span>Technical Officer</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fab fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card">
-						<div className="imgBx">
-							<img src="#" alt="" />
-						</div>
-						<div className="content">
-							<div className="details">
-								<h2>
-									Divyansh Rajput <br />
-									<span>Editorial Officer</span>
-								</h2>
-								<div className="data">
-									<h3>
-										<i className="fab fa-facebook-f" />
-										<br />
-										<span>Facebook</span>
-									</h3>
-									<h3>
-										<i className="fab fa-instagram" />
-										<br />
-										<span>Instagram</span>
-									</h3>
-									<h3>
-										<i className="fab fa-twitter" />
-										<br />
-										<span>Twitter</span>
-									</h3>
-								</div>
-								<div className="actionBtn">
-									<button>Follow</button>
-									<button>Message</button>
-								</div>
-							</div>
-						</div>
-					</div>
+						);
+					})}
 				</div>
 			</section>
 			{/* ====== TEAM Section end ====== */}
