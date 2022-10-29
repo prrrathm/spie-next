@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -6,7 +7,8 @@ const Navbar = () => {
 			<input type="checkbox" name="" id="" className="check" />
 			<ul className="menu-items">
 				<li>
-					<a href="#home">Home</a>
+					<Link href="#home">Home</Link>
+					{/* <a >Home</a> */}
 				</li>
 				<li>
 					<a href="#about">About Us</a>
