@@ -2,11 +2,18 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { TbArrowWaveLeftDown } from "react-icons/tb";
-import { BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
+import {
+	BsLinkedin,
+	BsTwitter,
+	BsInstagram,
+	BsFillTelephoneFill,
+} from "react-icons/bs";
+import { MdAlternateEmail } from "react-icons/md";
 import Marquee from "react-fast-marquee";
 import andcLogo from "../public/image/logos/andc.png";
 import spieLogo from "../public/image/logos/spie.png";
-import teamData from "../public/data.json";
+import teamData from "../public/data/data.json";
+import socials from "../public/data/socials.json";
 export default function Home() {
 	return (
 		<div className="bg-[#101010]">
@@ -54,11 +61,11 @@ export default function Home() {
 						</div>
 						<div>
 							<p className="flex items-end text-2xl text-justify">
-								Occaecat adipisicing esse amet aliqua sunt sit non. Incididunt
-								laboris duis deserunt anim laboris duis sit amet sunt consequat
-								tempor sit. Enim occaecat adipisicing dolore ex ullamco commodo
-								incididunt fugiat reprehenderit esse. Labore exercitation
-								laboris eu nisi anim ut et elit laboris nulla non.
+								We are SPIE Student Chapter University of Delhi at Acharya
+								Narendra Dev College. We collaborate with colleagues, perform
+								outreach in the community, develop professional and leadership
+								skills, form partnerships with industries, and reward student
+								members with industry based experience and various grants.
 							</p>
 						</div>
 						<div className="relative bg-white text-white/0 h-[0.1rem] w-full rounded-full my-5">
@@ -73,23 +80,23 @@ export default function Home() {
 								<div className="text-[1.5rem]">SPIE ANDC</div>
 							</h2>
 							<p className="text-xl flex items-end text-justify mt-5  ">
-								Occaecat adipisicing esse amet aliqua sunt sit non. Incididunt
-								laboris duis deserunt anim laboris duis sit amet sunt consequat
-								tempor sit. Enim occaecat adipisicing dolore ex ullamco commodo
-								incididunt fugiat reprehenderit esse. Labore exercitation
-								laboris eu nisi anim ut et elit laboris nulla non. Occaecat
-								adipisicing esse amet aliqua sunt sit non. Incididunt laboris
-								duis deserunt anim laboris duis sit amet sunt consequat tempor
-								sit. Enim occaecat adipisicing dolore ex ullamco commodo
-								incididunt fugiat reprehenderit esse. Labore exercitation
-								laboris eu nisi anim ut et elit laboris nulla non.
+								SPIE Student Chapter is a program started by SPIE, the
+								International Society for Photo-Optical Instrumentation
+								Engineers with an aim to provide undergraduate students to work
+								beyond the classroom, futuristic and hands-on experience on
+								whatever field of interset they may have pertaining to light.
+								The SPIE Student Chapter University of Delhi at Acharya Narendra
+								Dev College was established on August 6, 2010. The purpose of
+								our chapter is to promote optics and photonics among
+								undergraduate students by providing valuable academic career
+								development through conducting various events, workshops,
+								competitions and activities.{" "}
 							</p>
 						</div>
 					</div>
 				</section>
-			</main>
-			{/* About */}
-			{/* <section>
+				{/* About */}
+				{/* <section>
 				<div className="about">
 					<h1>ABOUT</h1>
 					<div className="wrapper">
@@ -130,62 +137,107 @@ export default function Home() {
 					</div>
 				</div>
 			</section> */}
-
-			{/* ====== TEAM Section Start ====== */}
-			<section
-				className="team bg-black rounded-[4rem] -translate-y-10 flex-col py-32 flex gap-32 justify-center items-center"
-				id="Teams"
-			>
-				<h2 className="text-[5rem] md:text-[8rem]">
-					<Marquee gradient={false} speed={200}>
+				{/* Register */}
+				<section className="flex-col !min-h-[100vh]">
+					<h2 className="text-[5rem] font-black sticky top-2">
+						Batch of 2024 want to become part of our community?
+						<a
+							href=""
+							className="rounded bg-red-700 text-black hover:bg-black hover:text-red-700 px-4 py-2 ml-6 mr-2 border-2 border-red-700 text-[4rem] "
+						>
+							Register Now
+						</a>
+					</h2>
+				</section>
+				{/* ====== TEAM Section Start ====== */}
+				<section
+					className="team bg-black rounded-[4rem] -translate-y-10 flex-col py-32 flex gap-32 justify-center items-center"
+					id="Teams"
+				>
+					<h2 className="block sticky top-0 text-[5rem] md:text-[6rem] w-full text-center">
+						{/* <Marquee gradient={false} speed={200}> */}
 						MEET THE
-						<div className="text-[#b91c1c] underline decoration-wavy decoration-2 decoration-red-700 underline-offset-8 mx-3">
+						<div className="inline-block text-[#b91c1c] underline decoration-wavy decoration-2 decoration-red-700 underline-offset-8 mx-3">
 							SPIE ANDC
 						</div>
-						TEAM <div className="text-red-700">.</div>
-					</Marquee>
-				</h2>
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-20 justify-center items-center">
-					{teamData["team"].map((item, iter) => {
-						return (
-							<div key={iter}>
-								<div className="card">
-									<div className="imgBx">
-										<img src="#" alt="" />
-									</div>
-									<div className="content">
-										<div className="details">
-											<h2>
-												{item.name} <br />
-												<span>{item.position}</span>
-											</h2>
-											<div className="data grid grid-cols-3">
-												<h3>
-													<BsLinkedin className="h-10 w-10" />
-													Linkedin
-												</h3>
-												<h3>
-													<BsInstagram className="h-10 w-10" />
-													Instagram
-												</h3>
-												<h3>
-													<BsTwitter className="h-10 w-10" />
-													Twitter
-												</h3>
+						TEAM <div className="text-red-700 inline-block">.</div>
+						{/* </Marquee> */}
+					</h2>
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-20 justify-center items-center">
+						{teamData["team"].map((item, iter) => {
+							return (
+								<div key={iter}>
+									<div className="card">
+										<div className="imgBx">
+											<img src="#" alt="" />
+										</div>
+										<div className="content">
+											<div className="details">
+												<h2>
+													{item.name} <br />
+													<span>{item.position}</span>
+												</h2>
+												<div className="data grid grid-cols-3">
+													<h3>
+														<BsLinkedin className="h-10 w-10" />
+														Linkedin
+													</h3>
+													<h3>
+														<BsInstagram className="h-10 w-10" />
+														Instagram
+													</h3>
+													<h3>
+														<BsTwitter className="h-10 w-10" />
+														Twitter
+													</h3>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						);
-					})}
-				</div>
-			</section>
-			{/* ====== TEAM Section end ====== */}
+							);
+						})}
+					</div>
+				</section>
+				{/* ====== TEAM Section end ====== */}
 
-			<section>
-				<h1>Contact Us</h1>
-			</section>
+				<section className="flex-col items-start gap-5">
+					<h2 className="text-[5rem] w-full text-center font-bold">
+						Contact Us
+					</h2>
+					<div className="flex flex-col gap-10 px-10 ">
+						<h2 className="text-5xl">Get in Touch</h2>
+						<div className="flex items-center gap-5">
+							<BsLinkedin className="h-10 w-10" />
+							<div className="flex flex-col">
+								<h3 className="font-bold text-2xl">Linkedin</h3>
+								<p>/company/spie-andc</p>
+							</div>
+						</div>
+						<div className="flex items-center gap-5">
+							<BsInstagram className="h-10 w-10" />
+							<div className="flex flex-col">
+								<h3 className="font-bold text-2xl">Instagram</h3>
+								<p>@spie_andc</p>
+							</div>
+						</div>
+						<div className="flex items-center gap-5">
+							<BsFillTelephoneFill className="h-10 w-10" />
+							<div className="flex flex-col">
+								<h3 className="font-bold text-2xl">Contact</h3>
+								<p>+91 6280799353</p>
+							</div>
+						</div>
+						<div className="flex items-center gap-5">
+							<MdAlternateEmail className="h-10 w-10" />
+							<div className="flex flex-col">
+								<h3 className="font-bold text-2xl">Email</h3>
+								<p>andcspie8@gmail.com</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
 		</div>
 	);
 }
