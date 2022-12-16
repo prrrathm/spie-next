@@ -164,6 +164,37 @@ export default function Home() {
 						TEAM <div className="text-red-700 inline-block">.</div>
 						{/* </Marquee> */}
 					</h2>
+					<div>
+						<div className="card">
+							<div className="imgBx">
+								<img src="/image/team/amit-sir.png" alt="" />
+							</div>
+							<div className="content">
+								<div className="details">
+									<h2>
+										Prof. Amit Garg
+										<br />
+										<span>Faculty Advisor</span>
+										<span>Associate Professor at ANDC</span>
+									</h2>
+									<div className="data grid grid-cols-3">
+										<h3>
+											<BsLinkedin className="h-10 w-10" />
+											Linkedin
+										</h3>
+										<h3>
+											<BsInstagram className="h-10 w-10" />
+											Instagram
+										</h3>
+										<h3>
+											<BsTwitter className="h-10 w-10" />
+											Twitter
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-20 justify-center items-center">
 						{teamData["team"].map((item, iter) => {
 							return (
