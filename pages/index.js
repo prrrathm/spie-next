@@ -11,7 +11,7 @@ import {
 import { MdAlternateEmail } from "react-icons/md";
 import Marquee from "react-fast-marquee";
 import andcLogo from "../public/image/logos/andc.png";
-import spieLogo from "../public/image/logos/spie.png";
+import spieLogo from "../public/image/logos/SPIE_Logo.png";
 import teamData from "../public/data/data.json";
 import socials from "../public/data/socials.json";
 export default function Home() {
@@ -48,8 +48,9 @@ export default function Home() {
 								{/* <div className=" h-32 w-32">
 									<Image src={spieLogo} />
 								</div> */}
-								<div className=" h-32 w-32">
+								<div className="h-32 w-32 flex ">
 									<Image src={andcLogo} />
+									{/* <Image src={spieLogo} /> */}
 								</div>
 							</div>
 							<h1 className="text-[5rem] md:text-[10rem] font-black">SPIE</h1>
@@ -138,8 +139,8 @@ export default function Home() {
 				</div>
 			</section> */}
 				{/* Register */}
-				<section className="flex-col !min-h-[100vh]">
-					<h2 className="text-[5rem] font-black sticky top-2">
+				<section className="flex-col !min-h-[100vh] sticky top-0">
+					<h2 className="text-[5rem] font-black">
 						Batch of 2024 want to become part of our community?
 						<a
 							href=""
@@ -169,7 +170,7 @@ export default function Home() {
 								<div key={iter}>
 									<div className="card">
 										<div className="imgBx">
-											<img src="#" alt="" />
+											<img src={item.img} alt="" />
 										</div>
 										<div className="content">
 											<div className="details">

@@ -1,7 +1,7 @@
 {
 	"team": [
 		{
-			"img": "",
+			"img": "/image/team/ankush.png",
 			"name": "Ankush Rana",
 			"position": "President",
 			"instagram": "",
@@ -9,41 +9,41 @@
 			"linkedin": ""
 		},
 		{
-			"img": "",
-			"name": "Ankush Rana",
-			"position": "President",
+			"img": "/image/team/sakshi.png",
+			"name": "Sakshi Garg",
+			"position": "Vice President",
 			"instagram": "",
 			"twitter": "",
 			"linkedin": ""
 		},
 		{
-			"img": "",
-			"name": "Ankush Rana",
-			"position": "President",
+			"img": "/image/team/kalpajit.png",
+			"name": "Kalpajit Roy",
+			"position": "Secretary",
 			"instagram": "",
 			"twitter": "",
 			"linkedin": ""
 		},
 		{
-			"img": "",
-			"name": "Ankush Rana",
-			"position": "President",
+			"img": "/image/team/iftekhar.png",
+			"name": "Iftekar Ali",
+			"position": "Treasurer",
 			"instagram": "",
 			"twitter": "",
 			"linkedin": ""
 		},
 		{
-			"img": "",
-			"name": "Ankush Rana",
-			"position": "President",
+			"img": "/image/team/naman.png",
+			"name": "Naman Sihori",
+			"position": "Technical Officer",
 			"instagram": "",
 			"twitter": "",
 			"linkedin": ""
 		},
 		{
-			"img": "",
-			"name": "Ankush Rana",
-			"position": "President",
+			"img": "/image/team/divyansh.png",
+			"name": "Divyansh Rajput",
+			"position": "Editorial Officer",
 			"instagram": "",
 			"twitter": "",
 			"linkedin": ""
