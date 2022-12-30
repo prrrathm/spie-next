@@ -3,11 +3,11 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-		<nav className="navigation">
+		<nav className="navigation z-40">
 			<input type="checkbox" name="" id="" className="check" />
 			<ul className="menu-items">
 				<li>
-					<Link href="#home">Home</Link>
+					<Link href="/">Home</Link>
 					{/* <a >Home</a> */}
 				</li>
 				<li>
