@@ -236,7 +236,7 @@ export default function Home() {
 				</section>
 				{/* ====== TEAM Section end ====== */}
 
-				<section className="flex-col items-start gap-5">
+				<section id="Contact" className="flex-col items-start gap-5">
 					<h2 className="text-[5rem] w-full text-center font-bold">
 						Contact Us
 					</h2>

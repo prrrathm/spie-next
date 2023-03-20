@@ -1,0 +1,52 @@
+{
+	"team": [
+		{
+			"img": "/image/team/ankush.png",
+			"name": "Pratham",
+			"position": "President",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/sakshi.png",
+			"name": "Sakshi Garg",
+			"position": "Vice President",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/pankaj.png",
+			"name": "Pankaj Kumar",
+			"position": "Member",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/govind.png",
+			"name": "Govind Kushawaha",
+			"position": "Member",
+			"instagram": "https://instagram.com/govind.0711?igshid=YmMyMTA2M2Y=",
+			"twitter": "https://mobile.twitter.com/G07_K11/likes",
+			"linkedin": "https://www.linkedin.com/in/govind-kushwaha-8563a1169"
+		},
+		{
+			"img": "/image/team/abhinav.png",
+			"name": "Abhinav Saxena",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/bhaand_cadet/",
+			"twitter": "https://twitter.com/Abhinav_otagaya",
+			"linkedin": "https://www.linkedin.com/in/abhinav-saxena-bbb160260/"
+		},
+		{
+			"img": "/image/team/pankaj.png",
+			"name": "Pankaj Kumar",
+			"position": "Member",
+			"instagram": "https://instagram.com/pankajkumar_116?igshid=ZDdkNTZiNTM=",
+			"twitter": "https://twitter.com/pankajkr_116",
+			"linkedin": "https://www.linkedin.com/in/pankaj-kumar-91301726a"
+		}
+	]
+}

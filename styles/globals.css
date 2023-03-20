@@ -277,6 +277,15 @@ section {
 	transform: scale(1.1, 1.1);
 }
 
+.submenu {
+	display: none;
+	font-size: 1.5rem;
+}
+
+.menu-items li:hover> .submenu{
+display: block;	
+
+}
 .check {
 	position: absolute;
 	top: 10px;
