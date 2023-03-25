@@ -1,0 +1,53 @@
+{
+	"team": [
+		{
+			"img": "/image/team/Harsh Bamotra.png",
+			"name": "Harsh Bamotra",
+			"position": "Executive Member",
+			"instagram": "https://www.instagram.com/harrshbamotra/",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/Rajat Sharma.png",
+			"name": "Rajat Sharma",
+			"position": "Executive Member",
+			"instagram": "",
+			"twitter": "https://twitter.com/meRajatSharma?t=weAekRNUzlAmwZIaq770LQ&s=09",
+			"linkedin": "https://www.linkedin.com/in/rajat-sharma-rs"
+		},
+		{
+			"img": "/image/team/mayank.png",
+			"name": "Mayank Rathi",
+			"position": "Member",
+			"instagram": "https://instagram.com/mayankr_02?igshid=ZDdkNTZiNTM=",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/mayank-rathi-0915b5216"
+		},
+		{
+			"img": "/image/team/Ayush Chaudhary.jpg",
+			"name": "Ayush Chaudhary",
+			"position": "Executive Member",
+			"instagram": "https://www.instagram.com/ayushchaudhary087/",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/Rimjhim Shukla.png",
+			"name": "Rimjhim Shukla",
+			"position": "Executive Member",
+			"instagram": "https://www.instagram.com/rimjhim__shukla007/",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/Prashant Tiwari.png",
+			"name": "Prashant Tiwari",
+			"position": "Executive Member",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		}
+		
+	]
+}

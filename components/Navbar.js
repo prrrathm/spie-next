@@ -17,6 +17,7 @@ const Navbar = () => {
 						<li><Link href="/teams/content">Content</Link></li>
 						<li><Link href="/teams/graphic">Graphic</Link></li>
 						<li><Link href="/teams/social_media">Social Media</Link></li>
+						<li><Link href="/teams/executive">Executive</Link></li>
 					</ul>				
 				</li>
 				<li>
