@@ -14,6 +14,8 @@ import andcLogo from "../public/image/logos/andc.png";
 import spieLogo from "../public/image/logos/SPIE_Logo.png";
 import teamData from "../public/data/data.json";
 import socials from "../public/data/socials.json";
+
+
 export default function Home() {
 	return (
 		<div className="bg-[#101010] z-10">
