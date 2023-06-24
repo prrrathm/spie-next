@@ -344,6 +344,15 @@ section {
 	display: block;
 	transform: rotate(-45deg);
 }
+
+.submenu{
+	display: none;
+	font-size: 1.1rem;
+}
+
+.menu-items li:hover> .submenu{
+	display:block;
+}
 /* NAVBAR END */
 /* FOOTER START */
 ul {
@@ -546,3 +555,5 @@ ul {
 /*CURSOR  */
 
 /* END */
+
+

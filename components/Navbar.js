@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import website from "../pages/teams/website";
 
 const Navbar = () => {
 	return (
@@ -13,9 +14,15 @@ const Navbar = () => {
 				<li>
 					<a href="#about">About Us</a>
 				</li>
-				<li>
-					<a href="#team">Our Team</a>
+				<li> <a href="#" >Our Teams</a>
+					<ul className="submenu">
+						<li><Link href="/teams/website">Website team</Link></li>
+						<li><a>Graphics Team</a></li>
+						<li><a>Content Team</a></li>
+					</ul>
+
 				</li>
+				
 				<li>
 					<a href="#contact">Contact</a>
 				</li>
