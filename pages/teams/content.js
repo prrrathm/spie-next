@@ -42,20 +42,20 @@ export default function Home() {
 						</h1><br></br>
 						<h3 className="text-2xl ">
 							Welcome to the SPIE Content Writing Team page! We are a team of skilled writers who
-							are passionate about creating high-quality and engaging content for our college society's
+							are passionate about creating high-quality and engaging content for our college society&apos;s
 							website.
 							<br />Our team is responsible for creating a wide range of content for our website, and
 							social media handles. We work closely with web developers and graphic designers to ensure
 							that the content we produce is not only informative and engaging but also visually
 							appealing and easy to navigate.
 							<br />Our writers come from diverse backgrounds and fields of study, which allows us to
-							produce content that covers a broad range of topics related to our society's interests
+							produce content that covers a broad range of topics related to our society&apos;s interests
 							and activities. We are committed to staying up-to-date with the latest trends and
 							developments in our respective fields, and we use this knowledge to create content that
 							is both informative and engaging.
 							<br />We take pride in our work and are dedicated to ensuring that our content is always
 							of the highest quality. If you have any questions or feedback about the content on our
-							website, please don't hesitate to contact us. We are always happy to hear from our readers!
+							website, please don&apos;t hesitate to contact us. We are always happy to hear from our readers!
 						</h3>
 					</div>
 				</section>

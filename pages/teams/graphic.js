@@ -41,14 +41,14 @@ export default function Home() {
 						</h1><br></br>
 						<h3 className="text-2xl ">
 							Our Graphic and Social Media Team is responsible for creating visually appealing
-							and engaging content for our brand's social media platforms. They work closely with
+							and engaging content for our brand&apos;s social media platforms. They work closely with
 							our content team to develop a cohesive and impactful social media strategy that drives
 							engagement and reaches our target audience. Our graphic designers use their creative
-							skills to design eye-catching graphics, images, and videos that convey our brand's
+							skills to design eye-catching graphics, images, and videos that convey our brand&apos;s
 							messaging and values. Our social media specialists then use these assets to curate and
 							publish content across various social media platforms, monitor engagement, and interact
 							with our followers. Together, our Graphic and Social Media Team plays a critical role in
-							enhancing our brand's online presence and engaging with our audience in meaningful ways.
+							enhancing our brand&apos;s online presence and engaging with our audience in meaningful ways.
 						</h3>
 					</div>
 				</section>
