@@ -1,69 +1,52 @@
 {
 	"team": [
 		{
-			"img": "/image/team/Sakshi.png",
-			"name": "Sakshi Garg",
-			"position": "Member",
-			"instagram": "https://www.instagram.com/_sak.shi_0202/",
-			"twitter": " ",
-			"linkedin": "https://linkedin.com/in/sakshigarg0202"
-		},
-		{
-			"img": "/image/team/Pratham.jpg",
-			"name": "Pratham Sharma",
-			"position": "Member",
-			"instagram": "https://www.instagram.com/prrrathm/",
-			"twitter": "https://twitter.com/prrrathm",
-			"linkedin": "https://www.linkedin.com/in/pratham-sharma-278aab212"
-		},
-		{
-			"img": "/image/team/Prachi.jpeg",
-			"name": "Prachi Dubey",
-			"position": "Member",
-			"instagram": "https://www.instagram.com/Prachidubey296/",
-			"twitter": "",
-			"linkedin": "https://www.linkedin.com/in/prachi-dubey-975a29236"
-		},
-		{
-			"img": "/image/team/Mayank.jpeg",
-			"name": "Mayank Rathi",
-			"position": "Member",
-			"instagram": "https://instagram.com/mayankr_02?igshid=ZDdkNTZiNTM=",
+			"img": "/image/team/ankush.png",
+			"name": "Pratham",
+			"position": "President",
+			"instagram": "",
 			"twitter": "",
 			"linkedin": ""
 		},
 		{
-			"img": "/image/team/Ayush.jpeg",
-			"name": "Ayush Singh Yadav",
-			"position": "Member",
-			"instagram": "https://instagram.com/the_sublime__?igshid=ZDdkNTZiNTM=",
-			"twitter": "https://twitter.com/AyushSi89190966",
-			"linkedin": "https://in.linkedin.com/in/ayush-singh-55a266248"
+			"img": "/image/team/sakshi.png",
+			"name": "Sakshi Garg",
+			"position": "Vice President",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
 		},
 		{
-			"img": "/image/team/Govind.jpg",
-			"name": "Govind Kushwaha",
+			"img": "/image/team/pankaj.png",
+			"name": "Pankaj Kumar",
+			"position": "Member",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/govind.png",
+			"name": "Govind Kushawaha",
 			"position": "Member",
 			"instagram": "https://instagram.com/govind.0711?igshid=YmMyMTA2M2Y=",
 			"twitter": "https://mobile.twitter.com/G07_K11/likes",
 			"linkedin": "https://www.linkedin.com/in/govind-kushwaha-8563a1169"
-			
 		},
 		{
-			"img": "/image/team/Pankaj.png",
-			"name": "Pankaj Kumar",
-			"position": "Member",
-			"instagram": "https://instagram.com/pankajkumar_116?igshid=ZDdkNTZiNTM=",
-			"twitter": "https://twitter.com/pankajkr_116",
-			"linkedin": "https://www.linkedin.com/in/pankaj-kumar-91301726a"
-		},
-		{
-			"img": "/image/team/Abhinav.jpg",
+			"img": "/image/team/abhinav.png",
 			"name": "Abhinav Saxena",
 			"position": "Member",
 			"instagram": "https://www.instagram.com/bhaand_cadet/",
 			"twitter": "https://twitter.com/Abhinav_otagaya",
 			"linkedin": "https://www.linkedin.com/in/abhinav-saxena-bbb160260/"
+		},
+		{
+			"img": "/image/team/pankaj.png",
+			"name": "Pankaj Kumar",
+			"position": "Member",
+			"instagram": "https://instagram.com/pankajkumar_116?igshid=ZDdkNTZiNTM=",
+			"twitter": "https://twitter.com/pankajkr_116",
+			"linkedin": "https://www.linkedin.com/in/pankaj-kumar-91301726a"
 		}
 	]
 }

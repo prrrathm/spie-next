@@ -8,10 +8,13 @@ import {
 	BsInstagram,
 	BsFillTelephoneFill,
 } from "react-icons/bs";
+// import { MdAlternateEmail } from "react-icons/md";
+// import Marquee from "react-fast-marquee";
+// import andcLogo from "../public/image/logos/andc.png";
+// import spieLogo from "../public/image/logos/SPIE_Logo.png";
 import teamData from "../../public/data/website.json";
+import socials from "../../public/data/socials.json";
 import next from "next";
-
-
 export default function Home() {
 	return (
 		<div className="bg-[#101010] z-10">
@@ -33,34 +36,16 @@ export default function Home() {
 					}}
 				>
 					<div className="inline-flex flex-col gap-5 bg-black/70 md:w-[90%] rounded-xl items-center p-10 pt-6 min-h-[80vh] drop-shadow-2xl">
-						<h1 className="text-5xl font-bold">
-							The Website Team Of Spie Student Chapter 
-						</h1><br/>
-						<h2 className="text-2xl">
-						Welcome to the SPIE Website Team page! We are a dedicated group of individuals 
-						who work tirelessly to design, develop, and maintain this website.
-						</h2>
-						<h2 className="text-2xl">
-						Our team is made up of talented web developers, designers, and content creators 
-						who collaborate to create a website that is functional, user-friendly, and visually
-						appealing. We are committed to delivering the best possible experience for our website
-						visitors, and we are always striving to improve and enhance our website to meet all needs.
-						</h2>
-						<h2 className="text-2xl">
-						Our web developers are responsible for coding and programming the website, ensuring
-						that it is optimized for performance and that all the features and functionality 
-						are working as intended. Our designers work on creating a visually appealing layout
-						and graphics, ensuring that the website is both aesthetically pleasing and easy to
-						navigate. Our content creators work on creating high-quality content that is relevant
-						to our society's interests and activities, ensuring that our website is always up-to-date
-						with the latest information.
-						</h2>
-						<h2 className="text-2xl">
-						We take pride in our work and are committed to ensuring that our website is a 
-						valuable resource for both members and visitors of our society. If you have any
-						questions or feedback about our website, please don't hesitate to contact us.
-						We would be happy to hear from you!
-						</h2>
+						<h1 className="text-6xl font-bold">
+							Meet our Team of Web Designers, Developers and World Class Problem
+							Solvers
+						</h1><br></br>
+						<h3 className="text-2xl ">
+							We will enlarge our ability to iterate virtually. Our infinitely
+							reconfigurable feature set is second to none, but our vertical,
+							customized efficient, user-centric TQM and non-complex use is usually
+							considered a terrific achievement.
+						</h3>
 					</div>
 				</section>
 
@@ -70,7 +55,7 @@ export default function Home() {
 					<h2 className="block sticky top-0 text-[5rem] md:text-[6rem] w-full text-center">
 						{/* <Marquee gradient={false} speed={200}> */}
 						<div className="">MEET OUR WEBSITE </div>
-						TEAM 
+						TEAM
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-20 justify-center items-center my-20">
 						{teamData["team"].map((item, iter) => {
@@ -80,30 +65,29 @@ export default function Home() {
 										<div className="imgBx">
 
 											<img src={item.img} alt="" />
-											
 										</div>
 										<div className="content">
 											<div className="details">
 												<h2>
 													{item.name} <br />
-													<span>{item.position}</span><br/>
+													<span>{item.position}</span><br />
 												</h2>
 												<div className="data grid grid-cols-3">
 													<a href={item.linkedin} target={next}>
 														<h3>
-															<BsLinkedin className="h-10 w-10"  />
+															<BsLinkedin className="h-10 w-10" />
 															Linkedin
 														</h3>
 													</a>
 													<a href={item.instagram} target={next}>
 														<h3>
-															<BsInstagram className="h-10 w-10"  />
+															<BsInstagram className="h-10 w-10" />
 															Instagram
 														</h3>
 													</a>
 													<a href={item.twitter} target={next}>
 														<h3>
-															<BsTwitter className="h-10 w-10"  />
+															<BsTwitter className="h-10 w-10" />
 															Twitter
 														</h3>
 													</a>

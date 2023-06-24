@@ -1,0 +1,125 @@
+{
+	"team": [
+		{
+			"img": "/image/team/shivam.png",
+			"name": "Shivam Tomar",
+			"position": "Member",
+			"instagram": " https://instagram.com/dark_smaug_1809?igshid=ZDdkNTZiNTM=",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/shivam-tomar-471b3b245/"
+		},
+		{
+			"img": "/image/team/akshita.png",
+			"name": "Akshita Kapri ",
+			"position": "Member",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/akshita-kapri-3a87b5248"
+		},
+		{
+			"img": "/image/team/jugantar.png",
+			"name": "Jugantar Sensua",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/jugantar_ _ _/",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/jugantar-sensua-6b89101a9"
+		},
+		{
+			"img": "/image/team/govind.png",
+			"name": "Govind Kushawaha",
+			"position": "Member",
+			"instagram": "https://instagram.com/govind.0711?igshid=YmMyMTA2M2Y=",
+			"twitter": "https://mobile.twitter.com/G07_K11/likes",
+			"linkedin": "https://www.linkedin.com/in/govind-kushwaha-8563a1169"
+		},
+		{
+			"img": "/image/team/abhinav.png",
+			"name": "Abhinav Saxena",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/bhaand_cadet/",
+			"twitter": "https://twitter.com/Abhinav_otagaya",
+			"linkedin": "https://www.linkedin.com/in/abhinav-saxena-bbb160260/"
+		},
+		{
+			"img": "/image/team/pankaj.png",
+			"name": "Pankaj Kumar",
+			"position": "Member",
+			"instagram": "https://instagram.com/pankajkumar_116?igshid=ZDdkNTZiNTM=",
+			"twitter": "https://twitter.com/pankajkr_116",
+			"linkedin": "https://www.linkedin.com/in/pankaj-kumar-91301726a"
+		},
+		{
+			"img": "/image/team/vishal.png",
+			"name": "Vishal Gupta",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/vishal_gupta_3.14/",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/vishal-gupta-834198222"
+		},
+		{
+			"img": "/image/team/mayank.png",
+			"name": "Mayank Rathi",
+			"position": "Member",
+			"instagram": "https://instagram.com/mayankr_02?igshid=ZDdkNTZiNTM=",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/mayank-rathi-0915b5216"
+		},
+		{
+			"img": "/image/team/tarun.png",
+			"name": "Kumar Tarun Singh",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/tarun_9744/",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/kumar-tarun-singh-a21853260"
+		},
+		{
+			"img": "/image/team/shalini.png",
+			"name": "Shalini",
+			"position": "Member",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/siddharth.png",
+			"name": "Siddharth Kumar ",
+			"position": "Member",
+			"instagram": "https://instagram.com/shivamsiddharth1311?igshid=ZDdkNTZiNTM=",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/siddharth-kumar-a6b49126a"
+		},
+		{
+			"img": "/image/team/drishti.png",
+			"name": "Drishti",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/_drishti_411/",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/sneha.png",
+			"name": "Sneha Singh",
+			"position": "Member",
+			"instagram": "http://www.instagram.com/_snehasingh20",
+			"twitter": "https://twitter.com/SnehaSingh22647?t=0dq3lAs1nevn1sARpK6WdA&s=09",
+			"linkedin": "https://www.linkedin.com/in/sneha-singh-494bb326a"
+		},
+		{
+			"img": "/image/team/urvashi.png",
+			"name": "Urvashi",
+			"position": "Member",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		
+		{
+			"img": "/image/team/aryan.png",
+			"name": "Aryan Keserwani",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/cosmosian00/",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/aryan-keserwani-002643165"
+		}
+	]
+}

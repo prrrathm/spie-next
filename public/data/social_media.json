@@ -1,0 +1,52 @@
+{
+	"team": [
+		{
+			"img": "/image/team/iftekhar.png",
+			"name": "Iftekhar Ali",
+			"position": "Member",
+			"instagram": "https://instagram.com/r_reyaan?igshid=YmMyMTA2M2Y=",
+			"twitter": "",
+			"linkedin": "https://www.linkedin.com/in/iftekhar-ali-6a26511aa"
+		},
+		{
+			"img": "/image/team/nidhi.png",
+			"name": "Nidhi Jain",
+			"position": "Member",
+			"instagram": "https://instagram.com/ee.soeky?igshid=N2JhNDIwYjc=",
+			"twitter": "https://twitter.com/nidhij1907?t=OcviAk2gx3e_rjfSP9jp-Q&s=09",
+			"linkedin": "https://www.linkedin.com/in/nidhi-jain-aa1288246"
+		},
+		{
+			"img": "/image/team/.png",
+			"name": "",
+			"position": "Secretary",
+			"instagram": "",
+			"twitter": "",
+			"linkedin": ""
+		},
+		{
+			"img": "/image/team/govind.png",
+			"name": "Govind Kushawaha",
+			"position": "Member",
+			"instagram": "https://instagram.com/govind.0711?igshid=YmMyMTA2M2Y=",
+			"twitter": "https://mobile.twitter.com/G07_K11/likes",
+			"linkedin": "https://www.linkedin.com/in/govind-kushwaha-8563a1169"
+		},
+		{
+			"img": "/image/team/abhinav.png",
+			"name": "Abhinav Saxena",
+			"position": "Member",
+			"instagram": "https://www.instagram.com/bhaand_cadet/",
+			"twitter": "https://twitter.com/Abhinav_otagaya",
+			"linkedin": "https://www.linkedin.com/in/abhinav-saxena-bbb160260/"
+		},
+		{
+			"img": "/image/team/pankaj.png",
+			"name": "Pankaj Kumar",
+			"position": "Member",
+			"instagram": "https://instagram.com/pankajkumar_116?igshid=ZDdkNTZiNTM=",
+			"twitter": "https://twitter.com/pankajkr_116",
+			"linkedin": "https://www.linkedin.com/in/pankaj-kumar-91301726a"
+		}
+	]
+}
