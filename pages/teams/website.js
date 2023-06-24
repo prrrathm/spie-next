@@ -8,6 +8,7 @@ import {
 import teamData from "../../public/data/data.json";
 
 const website = () => {
+
 	return (
 		<div className="flex flex-col justify-start items-start text-white min-h-screen px-10 py-2/'[]">
 			<div className="flex flex-col gap-2 md:mr-[30%]">
